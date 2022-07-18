@@ -34,7 +34,6 @@ img {
   display: none;
 }
 .header__box {
-  display: none;
   position: absolute;
   padding: 30px;
   width: 320px;
@@ -68,18 +67,40 @@ img {
   color: #FFFFFF;
 }
 .header .header__icon-open {
+  z-index: 5;
+}
+.header .header__icon-close {
+  z-index: 5;
+}
+.header .header__button-icon {
   position: absolute;
   top: 50px;
   left: 33px;
-  z-index: 2;
+  width: 40px;
+  height: 40px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: transparent;
 }
 .header .header__icon-close {
-  display: none;
   position: absolute;
-  top: 30px;
-  right: 30px;
 }
-.header .header__button-icon {
-  border: none;
-  background-color: rgba(0, 0, 0, 0);
+.header .header__button-icon.header__icon-open {
+  display: block;
+}
+.header .header__button-icon.is-open .header__icon-open {
+  display: block;
+}
+.header .header__button-icon.is-open .header__icon-close {
+  display: none;
+}
+.header .header__box {
+  display: none;
+}
+.header .header__box.is-open {
+  display: block;
 }/*# sourceMappingURL=main.css.map */
