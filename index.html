@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="./css/main.min.css">
       <style type="text/css"></style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
 <!-- <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap" rel="stylesheet"> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,51 +25,61 @@
   <body class="body">
     <header class="header">
         <section class="header__contact-box">
-            <p class="header__contact-text">КОНТАКТНАЯ ИНФОРМАЦИЯ</p>
-            <p class="header__contact-decoration"></p>
-            <ul class="header__list">
+            <button type="button" class="header__button-icon" data-menu-button>
+                <svg class="header__icon-open" width="40" height="40">
+                    <use href="./imeges/icon.svg#open"></use>
+                </svg>
+                <svg class="header__icon-close" width="32" height="32">
+                    <use href="./imeges/icon.svg#close"></use>
+                </svg>
+            </button>
+            <div class="header__box" data-menu>
+                <p class="header__contact-text">КОНТАКТНАЯ ИНФОРМАЦИЯ</p>
+                <p class="header__contact-decoration"></p>
+                <nav class="nav">
+                    <ul class="nav__list list">
+                        <li class="nav__item">
+                            <a class="nav__link link" href="">ГЛАВНАЯ</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link link" href="">О ТЕАТРЕ</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link link" href="">НАШИ ПОСТАНОВКИ</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link link" href="">ПАРТНЕРЫ ТЕАТРА</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link link" href="">КОНТАКТЫ</a>
+                        </li>
+                    </ul>
+                </nav>
+            <ul class="header__list list">
                 <li class="header__item">
-                    <svg class="header__icon-box">
-                        <use class="header__icon" href=""></use>
+                    <svg class="header__icon-box" width="45" height="45">
+                        <use class="header__icon" href="./imeges/icon.svg#header-icon1"></use>
                     </svg>
                 </li>
                 <li class="header__item">
-                    <svg class="header__icon-box">
-                        <use class="header__icon" href=""></use>
+                    <svg class="header__icon-box" width="45" height="45">
+                        <use class="header__icon" href="./imeges/icon.svg#header-icon2"></use>
                     </svg>
                 </li>
                 <li class="header__item">
-                    <svg class="header__icon-box">
-                        <use class="header__icon" href=""></use>
+                    <svg class="header__icon-box" width="45" height="45">
+                        <use class="header__icon" href="./imeges/icon.svg#header-icon3"></use>
                     </svg>
                 </li>
                 <li class="header__item">
-                    <svg class="header__icon-box">
-                        <use class="header__icon" href=""></use>
+                    <svg class="header__icon-box" width="45" height="45">
+                        <use class="header__icon" href="./imeges/icon.svg#header-icon4"></use>
                     </svg>
                 </li>
             </ul>
         </section>
-        <nav class="nav">
-            <ul class="nav__list">
-                <li class="nav__item">
-                    <a class="nav__link link" href="">ГЛАВНАЯ</a>
-                </li>
-                <li class="nav__item">
-                    <a class="nav__link link" href="">О ТЕАТРЕ</a>
-                </li>
-                <li class="nav__item">
-                    <a class="nav__link link" href="">НАШИ ПОСТАНОВКИ</a>
-                </li>
-                <li class="nav__item">
-                    <a class="nav__link link" href="">ПАРТНЕРЫ ТЕАТРА</a>
-                </li>
-                <li class="nav__item">
-                    <a class="nav__link link" href="">КОНТАКТЫ</a>
-                </li>
-            </ul>
-            <a class="header__tel link" href="tel:+74951234567">+7 495 123-45-67</a>
-        </nav>
+    </div>
+        <a class="header__tel link" href="tel:+74951234567">+7 495 123-45-67</a>
         <section class="header__info">
             <h1 class="header__tital">БОЛЬШОЙ ТЕАТР</h1>
             <p class="header__text">Большо́й теа́тр — петербургский театр, существовавший в 1784—1886 годах, с 1886 года — Петербургская консерватория. Первое постоянное в Санкт-Петербурге, крупнейшее в России и одно из крупнейших театральных зданий в Европе XVIII.</p>
@@ -75,12 +87,12 @@
 
         </section>
         <section class="card">
-            <ul class="card__list">
+            <ul class="card__list list">
                 <li class="cald__item">
                     <img class="card__img" src="" alt="">
                 </li>
             </ul>
-            <ul class="button__list">
+            <ul class="button__list list">
                 <li class="button_item">
                     <button type="button" class="button__button">
                         <svg class="button__scon-box">
@@ -124,7 +136,7 @@
         </section>
         <section class="product">
             <h2 class="product__tital"><span class="yellow">НАШИ</span> ПОСТАНОВКИ</h2>
-            <ul class="product__list">
+            <ul class="product__list list">
                 <li class="product__item">
                     <div class="product__item-box">
                         <img class="product__img" src="" alt="">
@@ -174,7 +186,7 @@
                 <p class="yo__text">2020</p>
             </div>
             <div class="grade__info">
-                <ul class="grade__info-list">
+                <ul class="grade__info-list list">
                     <li class="grade__info-item">
                         <svg class="grade__info-icon-box">
                             <use class="grade__info-icon" href=""></use>
@@ -206,7 +218,7 @@
         </section>
         <section class="partners">
             <h2 class="partners__tital"><span class="yellow">ПАРТНЕРЫ</span> ТЕАТРА</h2>
-            <ul class="partners__list">
+            <ul class="partners__list list">
                 <li class="partners__item">
                     <svg class="partners__icon-box">
                         <use class="partners__icon" href=""></use>
@@ -252,10 +264,10 @@
         <section class="contact">
             <h2 class="contact__tital"></h2>
             <div class="contact__info">
-                <a href="tel:+78121234555">+7 (812) 123-45-55</a>
-                <a href="tel:+78121234566">+7 (812) 123-45-66</a>
-                <a href="email:info@theater.ru">info@theater.ru</a>
-                <a href="">Г. САНКТ-ПЕРЕРБУРГ, НЕВСКИЙ 140</a>
+                <a  class="link" href="tel:+78121234555">+7 (812) 123-45-55</a>
+                <a class="link" href="tel:+78121234566">+7 (812) 123-45-66</a>
+                <a class="link" href="email:info@theater.ru">info@theater.ru</a>
+                <a class="link" href="">Г. САНКТ-ПЕРЕРБУРГ, НЕВСКИЙ 140</a>
             </div>
             <div class="forma">
                 <form class="form">
@@ -282,7 +294,8 @@
     </main>
     <footer class="footer">
         <p class="footer__info-left">(с) Все права защищены. Большой театр. 2020</p>
-        <p class="footer__info-right">Сверстал Килимник Дмитро, <a href="https://github.com/DimaKIL?tab=repositories">GitHub</a> </p>
+        <p class="footer__info-right">Сверстал Килимник Дмитро, <a class="link" href="https://github.com/DimaKIL?tab=repositories">GitHub</a> </p>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
   </html>
