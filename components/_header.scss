@@ -2,7 +2,8 @@
     background-image: url(../imeges/header1.png);
     position: relative;
     width: 100%;
-    padding: 50px 33px 140px 33px;
+    padding: 50px 33px 0px 33px;
+    height: 600px;
     &__contact-text{
         display: none;
     }
@@ -57,22 +58,58 @@ color: $color-white;
         background-color: transparent;
     }
     .header__icon-close{
-        position: absolute;
-    }
-    .header__button-icon.header__icon-open{
-        display: block;
-    }
-    .header__button-icon.is-open .header__icon-open{
-        display: block;
-    }
-    .header__button-icon.is-open .header__icon-close{
         display: none;
+        position: absolute;
     }
     .header__box{
         display: none;
     }
     .header__box.is-open{
         display: block;
+    }
+
+    .is-open.header__icon-open{
+        display: none;
+    }
+    .header__tel{
+        position: absolute;
+        top: 56px;
+        right: 33px;
+        font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+color: $color-white;
+border-bottom: 2px solid $color-gold;
+    }
+    .header__info{
+margin-top: 125px;
+    }
+    .header__tital{
+        font-weight: 700;
+font-size: 45px;
+line-height: 60px;
+letter-spacing: 0.1em;
+color: $color-white;
+margin-bottom: 50px;
+    }
+    .header__text{
+        font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+color: $color-white;
+margin-bottom: 50px;
+    }
+    .header__button{
+        font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+color: $color-white;
+padding: 15px 50px;
+background-color: $color-gold;
+border: none;
+    }
+    .card{
+        display: none;
     }
 
 }

@@ -2,6 +2,8 @@ body{
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
+    background-color: $color-background;
+    color: $color-white;
 }
 
 h1, h2, h3, h4, h5, h6, p{
@@ -19,4 +21,14 @@ h1, h2, h3, h4, h5, h6, p{
   }
   .link{
     text-decoration: none;
+  }
+  .yellow{
+    color: $color-gold;
+  }
+  .flex{
+    display: flex;
+    justify-content: center;
+  }
+  .block{
+    display: block;
   }

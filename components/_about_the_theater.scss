@@ -1,0 +1,40 @@
+.about{
+    padding: 80px 33px;
+}
+.about__tital{
+    font-weight: 300;
+font-size: 48px;
+line-height: 65px;
+text-align: center;
+letter-spacing: 0.1em;
+margin-bottom: 60px;
+}
+.info-box__tital{
+    font-weight: 700;
+font-size: 21px;
+line-height: 29px;
+text-align: center;
+letter-spacing: 0.1em;
+margin-bottom: 40px;
+}
+.info-box__text{
+    font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+text-align: center;
+margin-bottom: 27px;
+}
+.about__img-box{
+    display: none;
+}
+.fact-box__tital{
+    font-weight: 700;
+font-size: 21px;
+line-height: 29px;
+text-align: center;
+letter-spacing: 0.1em;
+margin-bottom: 40px;
+}
+.block:not(:last-child){
+    margin-right: 60px;
+}

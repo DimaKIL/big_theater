@@ -1,0 +1,98 @@
+.contact{
+    padding: 0 39px 60px 39px;
+
+    &__tital{
+        font-weight: 300;
+font-size: 40px;
+line-height: 65px;
+text-align: center;
+letter-spacing: 0.1em;
+margin-bottom: 60px;
+    }
+    .form{
+
+        &__input{
+            width: 230px;
+            height: 35px;
+            background-color: $color-background-form;
+            border: 1px solid $color-gray;
+        }
+    }
+    .form__list{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-bottom: 30px;
+    }
+    .form__textarea{
+        height: 100%;
+        width: 100%;
+        background-color: $color-background-form;
+        border: 1px solid $color-gray;
+        margin-bottom: 40px;
+    }
+    .form__info{
+        margin-bottom: 50px;
+    }
+    .form__button{
+        margin: 0 auto;
+        font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.1em;
+color: $color-white;
+background-color: $color-gold;
+border: none;
+padding: 15px 50px;
+margin-bottom: 30px;
+    }
+    .form__text{
+        font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 150%;
+text-align: center;
+color: $color-gray;
+    }
+    .contact__info{
+        position: relative;
+        height: 150px;
+        font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+letter-spacing: 0.05em;
+
+    }
+    .f{
+        color: $color-white;
+    }
+    .a{
+        position: absolute;
+        top: 0px;
+        left: 0;
+    }
+    .b{
+        
+            position: absolute;
+            bottom: 90px;
+            left: 0;
+            border-bottom: 1px solid $color-gray;
+            
+    }
+    .c{
+        position: absolute;
+        top: 70px;
+        right: 0;
+    }
+    .d{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        text-align: right;
+    }
+
+}

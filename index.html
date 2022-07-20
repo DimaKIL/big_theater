@@ -79,8 +79,8 @@
             </ul>
         </section>
     </div>
-        <a class="header__tel link" href="tel:+74951234567">+7 495 123-45-67</a>
-        <section class="header__info">
+    <a class="header__tel link" href="tel:+74951234567">+7 495 123-45-67</a>
+    <section class="header__info">
             <h1 class="header__tital">БОЛЬШОЙ ТЕАТР</h1>
             <p class="header__text">Большо́й теа́тр — петербургский театр, существовавший в 1784—1886 годах, с 1886 года — Петербургская консерватория. Первое постоянное в Санкт-Петербурге, крупнейшее в России и одно из крупнейших театральных зданий в Европе XVIII.</p>
             <button type="button" class="header__button">АФИША</button>
@@ -112,7 +112,7 @@
     </header>
     <main class="main">
         <section class="about">
-            <h2 class="about__tital"><span class="yellow">О</span> ТЕАТРЕ</h2>
+            <h2 class="about__tital"><span class="yellow">0</span> ТЕАТРЕ</h2>
             <div class="about__box">
                 <div class="about__info-box">
                     <h3 class="info-box__tital">САМЫЙ ЛУЧШИЙ ТЕАТР СПБ</h3>
@@ -120,15 +120,21 @@
                 </div>
                 <div class="about__fact-box">
                     <h3 class="fact-box__tital">НЕМНОГО О ЦИФРАХ</h3>
-                    <svg class="fact-box__icon-box">
-                        <use class="fact-box__icon" href=""></use>
-                    </svg>
-                    <p class="fact-box__text"><span class="yellow">1600</span> посадочный мест</p>
-                    <svg class="fact-box__icon-box">
-                        <use class="fact-box__icon" href=""></use>
-                    </svg>
-                    <p class="fact-box__text"><span class="yellow">350</span> лет истории</p>
-                </div>
+                    <div class="flex">
+                        <div class="block">
+                            <svg class="fact-box__icon-box" width="70" height="70">
+                                <use class="fact-box__icon" href="./imeges/icon.svg#about1"></use>
+                            </svg>
+                            <p class="fact-box__text"><span class="yellow">1600</span> посадочный мест</p>
+                        </div>
+                        <div class="block">
+                            <svg class="fact-box__icon-box" width="70" height="70">
+                                <use class="fact-box__icon" href="./imeges/icon.svg#about2"></use>
+                            </svg>
+                            <p class="fact-box__text"><span class="yellow">350</span> лет истории</p>    
+                        </div>
+                    </div>
+                    </div>
                 <div class="about__img-box">
                     <img class="about__img" src="" alt="">
                 </div>
@@ -139,162 +145,182 @@
             <ul class="product__list list">
                 <li class="product__item">
                     <div class="product__item-box">
-                        <img class="product__img" src="" alt="">
-                        <svg class="probuct__icon-box">
-                            <use href="" class="probuct__icon"></use>
-                        </svg>
-                        <p class="product__text">ОСКАР 2020</p>
-                        <p class="product__text-alt">СЕНТЯБРЬ 2020</p>
+                        <div class="icon-boxx">
+                            <img class="product__img" src="./imeges/post1.jpg" alt="">
+                            <svg class="probuct__icon-box">
+                                <use href="" class="probuct__icon"></use>
+                            </svg>
+                            <p class="product__text">ОСКАР 2020</p>
+                            <p class="product__text-alt">СЕНТЯБРЬ 2020</p>
+                        </div>
                     </div>
                 </li>
                 <li class="product__item">
                     <div class="product__item-box">
-                        <img class="product__img" src="" alt="">
-                        <svg class="probuct__icon-box">
-                            <use href="" class="probuct__icon"></use>
-                        </svg>
-                        <p class="product__text">ОСКАР 2019</p>
-                        <p class="product__text-alt">МАЙ 2019</p>
+                        <div class="for-help">
+                            <svg class="probuct__icon-box">
+                                <use href="" class="probuct__icon"></use>
+                            </svg>
+                            <p class="product__text">ОСКАР 2019</p>
+                            <p class="product__text-alt">МАЙ 2019</p>
+                        </div>
+                        </div>
+                </li>
+                <li class="product__item">
+                    <div class="product__item-box">
+                        <div class="icon-boxx">
+                            <img class="product__img" src="./imeges/post3.jpg" alt="">
+                            <svg class="probuct__icon-box">
+                                <use href="" class="probuct__icon"></use>
+                            </svg>
+                            <p class="product__text">ЗОЛОТОЙ ГРАМОФОН</p>
+                            <p class="product__text-alt">ИЮЛЬ 2020</p>
+                        </div>
                     </div>
                 </li>
                 <li class="product__item">
                     <div class="product__item-box">
-                        <img class="product__img" src="" alt="">
-                        <svg class="probuct__icon-box">
-                            <use href="" class="probuct__icon"></use>
-                        </svg>
-                        <p class="product__text">ЗОЛОТОЙ ГРАМОФОН</p>
-                        <p class="product__text-alt">ИЮЛЬ 2020</p>
-                    </div>
-                </li>
-                <li class="product__item">
-                    <div class="product__item-box">
-                        <img class="product__img" src="" alt="">
-                        <svg class="probuct__icon-box">
-                            <use href="" class="probuct__icon"></use>
-                        </svg>
-                        <p class="product__text">ЩЕЛКУНЧИК</p>
-                        <p class="product__text-alt">МАЙ 2020</p>
+                        <div class="icon-boxx">
+                            <img class="product__img" src="./imeges/post4.jpg" alt="">
+                            <svg class="probuct__icon-box">
+                                <use href="" class="probuct__icon"></use>
+                            </svg>
+                            <p class="product__text">ЩЕЛКУНЧИК</p>
+                            <p class="product__text-alt">МАЙ 2020</p>
+                        </div>
                     </div>
                 </li>
             </ul>
         </section>
         <section class="grade">
-            <div class="yo">
-                <p class="yo__text">2018</p>
-                <p class="yo__text">2019</p>
-                <p class="yo__text">2020</p>
-            </div>
             <div class="grade__info">
                 <ul class="grade__info-list list">
                     <li class="grade__info-item">
-                        <svg class="grade__info-icon-box">
-                            <use class="grade__info-icon" href=""></use>
+                        <svg class="grade__info-icon-box"  width="23" height="24">
+                            <use class="grade__info-icon" href="./imeges/icon.svg#star"></use>
                         </svg>
                     </li>
                     <li class="grade__info-item">
-                        <svg class="grade__info-icon-box">
-                            <use class="grade__info-icon" href=""></use>
+                        <svg class="grade__info-icon-box"  width="23" height="24">
+                            <use class="grade__info-icon" href="./imeges/icon.svg#star"></use>
                         </svg>
                     </li>
                     <li class="grade__info-item">
-                        <svg class="grade__info-icon-box">
-                            <use class="grade__info-icon" href=""></use>
+                        <svg class="grade__info-icon-box"  width="23" height="24">
+                            <use class="grade__info-icon" href="./imeges/icon.svg#star"></use>
                         </svg>
                     </li>
                     <li class="grade__info-item">
-                        <svg class="grade__info-icon-box">
-                            <use class="grade__info-icon" href=""></use>
+                        <svg class="grade__info-icon-box"  width="23" height="24">
+                            <use class="grade__info-icon" href="./imeges/icon.svg#star"></use>
                         </svg>
                     </li>
                     <li class="grade__info-item">
-                        <svg class="grade__info-icon-box">
-                            <use class="grade__info-icon" href=""></use>
+                        <svg class="grade__info-icon-box"  width="23" height="24">
+                            <use class="grade__info-icon" href="./imeges/icon.svg#star"></use>
                         </svg>
                     </li>
-                    <p class="grade__text">Лучший театр по мнению театральных критиков Парижа</p>
                 </ul>
+                <p class="grade__text">Лучший театр по мнению театральных критиков Парижа</p>
+                <div class="yo">
+                    <p class="yo__text">2018</p>
+                    <p class="yo__text">2019</p>
+                    <p class="yo__text">2020</p>
+                </div>
             </div>
         </section>
         <section class="partners">
             <h2 class="partners__tital"><span class="yellow">ПАРТНЕРЫ</span> ТЕАТРА</h2>
             <ul class="partners__list list">
                 <li class="partners__item">
-                    <svg class="partners__icon-box">
-                        <use class="partners__icon" href=""></use>
+                    <svg class="partners__icon-box" width="200" height="97">
+                        <use class="partners__icon" href="./imeges/icon.svg#part"></use>
                     </svg>
                 </li>
                 <li class="partners__item">
-                    <svg class="partners__icon-box">
-                        <use class="partners__icon" href=""></use>
+                    <svg class="partners__icon-box" width="200" height="97">
+                        <use class="partners__icon" href="./imeges/icon.svg#part"></use>
                     </svg>
                 </li>
                 <li class="partners__item">
-                    <svg class="partners__icon-box">
-                        <use class="partners__icon" href=""></use>
+                    <svg class="partners__icon-box" width="200" height="97">
+                        <use class="partners__icon" href="./imeges/icon.svg#part"></use>
                     </svg>
                 </li>
                 <li class="partners__item">
-                    <svg class="partners__icon-box">
-                        <use class="partners__icon" href=""></use>
+                    <svg class="partners__icon-box" width="200" height="97">
+                        <use class="partners__icon" href="./imeges/icon.svg#part"></use>
                     </svg>
                 </li>
                 <li class="partners__item">
-                    <svg class="partners__icon-box">
-                        <use class="partners__icon" href=""></use>
+                    <svg class="partners__icon-box" width="200" height="97">
+                        <use class="partners__icon" href="./imeges/icon.svg#part"></use>
                     </svg>
                 </li>
                 <li class="partners__item">
-                    <svg class="partners__icon-box">
-                        <use class="partners__icon" href=""></use>
+                    <svg class="partners__icon-box" width="200" height="97">
+                        <use class="partners__icon" href="./imeges/icon.svg#part"></use>
                     </svg>
                 </li>
                 <li class="partners__item">
-                    <svg class="partners__icon-box">
-                        <use class="partners__icon" href=""></use>
+                    <svg class="partners__icon-box" width="200" height="97">
+                        <use class="partners__icon" href="./imeges/icon.svg#part"></use>
                     </svg>
                 </li>
                 <li class="partners__item">
-                    <svg class="partners__icon-box">
-                        <use class="partners__icon" href=""></use>
+                    <svg class="partners__icon-box" width="200" height="97">
+                        <use class="partners__icon" href="./imeges/icon.svg#part"></use>
                     </svg>
                 </li>
             </ul>
         </section>
         <section class="contact">
-            <h2 class="contact__tital"></h2>
-            <div class="contact__info">
-                <a  class="link" href="tel:+78121234555">+7 (812) 123-45-55</a>
-                <a class="link" href="tel:+78121234566">+7 (812) 123-45-66</a>
-                <a class="link" href="email:info@theater.ru">info@theater.ru</a>
-                <a class="link" href="">Г. САНКТ-ПЕРЕРБУРГ, НЕВСКИЙ 140</a>
-            </div>
+            <h2 class="contact__tital"><span class="yellow">СТАТЬ</span> МЕЦЕНАТОМ</h2>
             <div class="forma">
                 <form class="form">
                     <div class="form__global-box">
-                        <div class="form__box-">
-                            <input class="form__input" class="input" type="text" name="name" id="name" placeholder="Имя"/>
-                            <input class="form__input" class="input" type="tel" name="tel" id="tel" placeholder="Телефон"/>
-                        </div>
-                        <div class="form__box--">
-                            <input class="form__input" class="input" type="text" name="name" id="name" placeholder="Компания"/>
-                            <input class="form__input" class="input" type="email" name="email" id="email" placeholder="E-mail">
-                        </div>
+                        <div class="form__-box">
+                            <div class="form__box-">
+                                <ul class="form__list list">
+                                    <li class="form__item">
+                                        <input class="form__input" class="input" type="text" name="name" id="name" placeholder="Имя"/>
+                                    </li>
+                                    <li class="form__item">
+                                        <input class="form__input" class="input" type="tel" name="tel" id="tel" placeholder="Телефон"/>                                
+                                    </li>
+                                    <li class="form__item">
+                                        <input class="form__input" class="input" type="text" name="name" id="name" placeholder="Компания"/>                                  
+                                    </li>
+                                    <li class="form__item">
+                                        <input class="form__input" class="input" type="email" name="email" id="email" placeholder="E-mail">                                     
+                                    </li>
+                                </ul>
+                                
+                               
+                                
                         <div class="form__box---">
                             <textarea class="form__textarea textarea" name="coment" id="coment" rows="10" placeholder="Сообщение"></textarea>
                         </div>
                     </div>
-                    <div class="form__info">
-                        <p class="form__text">* Ваши данные не будут переданы третьим лицам, 100% вероятность. Конфиденциальность мы гарантируем, и защищаем персональные данные согласно законку ФЗ-52.</p>
-                        <button type="button">ОТПРАВИТЬ</button>
-                    </div>
                 </form>
+                <div class="form__info">
+                    <button type="button" class="form__button">ОТПРАВИТЬ</button>
+                    <p class="form__text">* Ваши данные не будут переданы третьим лицам, 100% вероятность. Конфиденциальность мы гарантируем, и защищаем персональные данные согласно законку ФЗ-52.</p>
+                </div>
+                <div class="contact__info">
+                        <a  class="link f a" href="tel:+78121234555">+7 (812) 123-45-55</a>
+                        <a class="link f b " href="tel:+78121234566">+7 (812) 123-45-66</a>
+
+                    <a class="link f c" href="email:info@theater.ru">info@theater.ru</a>
+                    <a class="link f d" href="">Г. САНКТ-ПЕРЕРБУРГ, НЕВСКИЙ 140</a>
+
+                </div>
             </div>
         </section>
     </main>
     <footer class="footer">
         <p class="footer__info-left">(с) Все права защищены. Большой театр. 2020</p>
-        <p class="footer__info-right">Сверстал Килимник Дмитро, <a class="link" href="https://github.com/DimaKIL?tab=repositories">GitHub</a> </p>
+        <p class="footer__info-right">Сверстал Килимник Дмитро, <a class="link im" href="https://github.com/DimaKIL?tab=repositories">GitHub</a> </p>
     </footer>
     <script src="./js/header.js"></script>
   </body>

@@ -1,0 +1,16 @@
+.partners{
+    padding: 80px 33px;
+}
+.partners__list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+.partners__tital{
+    font-weight: 300;
+font-size: 48px;
+line-height: 65px;
+text-align: center;
+letter-spacing: 0.1em;
+}
