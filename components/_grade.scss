@@ -30,3 +30,10 @@ margin-right: 20px;
 .grade__info-list{
 
 }
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .grade{
+        width: 576px;
+        margin: 0 auto;
+    }
+
+}
