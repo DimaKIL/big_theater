@@ -190,9 +190,24 @@ img {
     width: 540px;
   }
 }
-@media screen and (min-width: 769px) and (max-width: 991px) {
+@media screen and (min-width: 769px) and (max-width: 992px) {
   .header {
     background-image: url(../imeges/header3.jpg);
+  }
+}
+@media screen and (min-width: 992px) {
+  .header {
+    position: relative;
+    height: 1045px;
+  }
+  .header__info {
+    position: absolute;
+    width: 540px;
+    margin-left: 191px;
+  }
+  .header__button-icon {
+    display: none;
+    z-index: -1;
   }
 }
 .product {
@@ -365,6 +380,11 @@ img {
   .grade {
     width: 768px;
     margin: 0 auto;
+  }
+}
+@media screen and (min-width: 992px) {
+  .grade {
+    background-image: url(../imeges/grade\ 3.jpg);
   }
 }
 .footer {
@@ -645,6 +665,12 @@ img {
   }
 }
 @media screen and (min-width: 769px) and (max-width: 991px) {
+  .contact {
+    width: 768px;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 992px) {
   .contact {
     width: 768px;
     margin: 0 auto;

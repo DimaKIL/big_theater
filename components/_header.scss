@@ -148,9 +148,26 @@ letter-spacing: 0.1em;
     width: 540px;
 }
 }
-@media screen and (min-width: 769px) and (max-width: 991px){
+@media screen and (min-width: 769px) and (max-width: 992px){
     .header{
         background-image: url(../imeges/header3.jpg);
     }
 
+}
+@media screen and (min-width: 992px){
+    .header{
+        position: relative;
+        height: 1045px;
+    }
+    .header__info{
+        position: absolute;
+        width: 540px;
+        margin-left: 191px;
+    }
+    .header__box{
+    }
+    .header__button-icon{
+        display: none;
+        z-index: -1;
+    }
 }
