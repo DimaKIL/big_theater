@@ -37,3 +37,27 @@ margin-right: 20px;
     }
 
 }
+@media screen and (min-width: 768px){
+    .grade{
+        position: relative;
+        background-image: url(../imeges/grade2.jpg);
+        padding: 0 99px;
+    }
+    .grade__info{
+        position: absolute;
+        top: 190px;
+        width: 388px;
+        left: 320px;
+    }
+    .yo{
+        padding-top: 126px;
+    }
+
+}
+@media screen and (min-width: 769px) and (max-width: 991px){
+    .grade{
+        width: 768px;
+        margin: 0 auto;
+    }
+
+}

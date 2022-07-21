@@ -38,3 +38,44 @@ margin-bottom: 40px;
 .block:not(:last-child){
     margin-right: 60px;
 }
+@media screen and (min-width: 768px){
+    .about{
+        display: flex;
+        justify-content: center;
+        padding: 90px 35px;
+    }
+    .about__global-box{
+
+    }
+    .about__box{
+        display: flex;
+    }
+    .flex{
+        display: block;
+    }
+    .about__info-box{
+        width: 445px;
+        text-align: left;
+        margin-right: 30px;
+    }
+    .about__fact-box{
+        width: 250px;
+    }
+    .info-box__tital{
+        text-align: left;
+    }
+    .info-box__text{
+        text-align: left;
+    }
+    .fact-box__tital{
+        font-weight: 700;
+font-size: 19px;
+line-height: 29px;
+letter-spacing: 0.1em;
+        text-align: left;
+    }
+    .block:not(:last-child){
+        margin-bottom: 30px;
+    }
+
+}
