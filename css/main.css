@@ -50,6 +50,9 @@ img {
   padding: 50px 33px 0px 33px;
   height: 600px;
 }
+.header__box-desk {
+  display: none;
+}
 .header__contact-text {
   display: none;
 }
@@ -208,6 +211,9 @@ img {
   .header__button-icon {
     display: none;
     z-index: -1;
+  }
+  .header__box-desk {
+    display: block;
   }
 }
 .product {
