@@ -411,6 +411,25 @@ img {
     padding: 0 39px 90px 39px;
   }
 }
+@media screen and (min-width: 992px) {
+  .product {
+    margin-bottom: 150px;
+  }
+  .product__tital {
+    margin-top: 150px;
+    margin-bottom: 100px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .global-box-product {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 .partners {
   padding: 80px 33px;
 }
@@ -439,6 +458,12 @@ img {
 @media screen and (min-width: 768px) {
   .partners {
     padding: 90px 39px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .partners__tital {
+    margin-top: 150px;
+    margin-bottom: 100px;
   }
 }
 .grade {
@@ -509,6 +534,18 @@ img {
     background-image: url(../imeges/grade\ 3.jpg);
     width: 992px;
     margin: 0 auto;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .grade {
+    background-image: url(../imeges/grade4.jpg);
+    width: 1110px;
+    margin: 0 auto;
+  }
+  .grade__text {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
   }
 }
 .footer {
@@ -620,6 +657,20 @@ img {
   }
   .block:not(:last-child) {
     margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .about__tital {
+    margin-top: 150px;
+    margin-bottom: 100px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .about__fact-box {
+    margin-right: 30px;
+  }
+  .about__img-box {
+    display: block;
   }
 }
 .contact {
@@ -795,6 +846,10 @@ img {
   }
 }
 @media screen and (min-width: 992px) {
+  .contact__tital {
+    margin-top: 120px;
+    margin-bottom: 100px;
+  }
   .contact {
     width: 768px;
     margin: 0 auto;

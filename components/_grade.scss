@@ -69,5 +69,15 @@ margin-right: 20px;
     }
 }
 @media screen and (min-width: 1400px){
+    .grade{
+        background-image: url(../imeges/grade4.jpg);
+        width: 1110px;
+        margin: 0 auto;
+    }
+    .grade__text{
+        font-weight: 700;
+font-size: 36px;
+line-height: 150%;
+    }
 
 }

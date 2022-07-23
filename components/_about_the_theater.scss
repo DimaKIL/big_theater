@@ -79,6 +79,19 @@ letter-spacing: 0.1em;
     }
 
 }
+@media screen and (min-width: 992px){
+    .about__tital{
+        margin-top: 150px;
+        margin-bottom: 100px;
+    }
+
+}
 @media screen and (min-width: 1400px){
+    .about__fact-box{
+        margin-right: 30px;
+    }
+    .about__img-box{
+        display: block;
+    }
 
 }
