@@ -28,6 +28,12 @@
         margin-right: 50px;
         padding-bottom: 110px;
     }
+    .header__icon-box{
+        fill: $color-white;
+        width: 45px;
+        height: 45px;
+
+    }
     .nav{
         &__list{
             padding-bottom: 98px;
@@ -160,15 +166,16 @@ letter-spacing: 0.1em;
 }
 @media screen and (min-width: 992px){
     .header{
+        background-image: url(../imeges/header4.jpg);
         position: relative;
         height: 1045px;
+        // width: 992px;
+        // margin: 0 auto;
     }
     .header__info{
         position: absolute;
         width: 540px;
         margin-left: 191px;
-    }
-    .header__box{
     }
     .header__button-icon{
         display: none;
@@ -180,5 +187,109 @@ letter-spacing: 0.1em;
     &__box-desk{
         display: block;
     }
+
 }
+.box-grey-desk{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(51, 51, 51, 0.75);
+    width: 150px;
+    height: 1045px;
+}
+.header__contact-text-desk{
+    margin-top: 250px;
+    margin-left: 62px;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    
+    color: #C4C4C4;
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg);
+}
+.header__contact-decoration-desk{
+    margin-top: 40px;
+    margin-left: 75px;
+    margin-bottom: 40px;
+    height: 80px;
+    border-left: 3px solid #C4C4C4;
+}
+.header__icon-box-desk{
+    transition: fill 250ms $cubic;
+    fill: #C4C4C4;
+    width: 26px;
+    height: 26px;
+}
+.header__icon-box-desk:hover,
+.header__icon-box-desk:focus{
+    color: $color-gold;
+}
+.nav-desk{
+    position: absolute;
+    top: 50px;
+    margin-left: 120px;
+}
+.header__item-desk{
+    margin-left: 64px;
+}
+.header__item-desk:not(:last-child){
+    margin-bottom: 30px;
+}
+.nav__list-desk{
+    display: flex;
+}
+.nav__item-desk{
+    font-weight: 700;
+font-size: 17px;
+line-height: 25px;
+letter-spacing: 0.1em;
+    color: $color-white;
+}
+.nav__link-desk{
+    color: $color-white
+}
+.nav__item-desk:not(:last-child){
+    margin-right: 30px;
+}
+.header__tel{
+    display: none;
+}
+.header__tel-desk{
+    position: absolute;
+    top: 126px;
+    left: 437px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: $color-white;
+    border-bottom: 2px solid $color-gold;
+
+}
+}
+@media screen and (min-width: 1060px){
+    .nav-desk{
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+       .nav__list-desk{
+        position: relative;
+        margin: 0 auto;
+    }
+    .nav-help{
+        display: flex;
+        margin: 0 auto;
+        width: 992px;
+    }
+    .header__tel-desk{
+        position: absolute;
+        top: 50px;
+        left: 5px;
+        z-index: 3;
+    }
+}
+@media screen and (min-width: 1400px){
+
 }
